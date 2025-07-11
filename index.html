@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body class="relative bg-white overflow-hidden">
+    <!-- flex container for layout -->
+    <div class="flex w-screen h-screen">
+        
+        <!-- Background Image -->
+        <div class="relative h-full w-[80vw]">
+            <img src="img/male-foot-with-brown-leather-shoes-jeans.jpg" alt=""       
+            class="absolute top-0 left-0 w-full h-full object-cover z-[-1]">
+            
+            <nav class="flex justify-between items-center p-4 z-10 relative w-screen pr-10">
+                <h1 class="text-3xl uppercase tracking-wide font-bold ml-4 text-white">e t q .</h1>
+                
+                <div class="flex space-x-6 ml-7 text-white">
+                    <a href="#">Shop All</a>
+                    <a href="#">Shoe Care</a>
+                </div>
+                
+                <div class="flex space-x-6 ml-auto">
+                    <a href="#">Search</a>
+                    <a href="#">Help</a>
+                    <a href="#">My Account</a>
+                </div>
+            </nav>
+        </div>
+        <div class="flex flex-col justify-center items-left h-full w-[20vw] bg-white text-gray-800 p-6 pl-10">
+            <p class="mb-2 text-md font-semibold">New styles added</p>
+            <p class="mb-4 text-2xl">Holiday Sale. <br> Up to 50% Off</p> 
+            <a href="#" class="underline text-gray-500">Shop here</a>
+        </div>
+    </div>
+</body>
+</html>
